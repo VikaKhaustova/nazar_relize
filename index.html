@@ -16,8 +16,8 @@ data-bs-theme="light"-->
     <div class="container-fluid">
     <a class="navbar-brand" href="#">
     <!-- додайте свій логотип і назву сайту -->
-    <img src="img/pizza-recipe.jpg.webp" width="50px" alt="logo">
-    Navbar</a>
+    <img class="imdf" src="img/pizza-recipe.jpg.webp" width="50px" alt="logo">
+    Pizza Pub</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
     aria-label="Toggle navigation">
@@ -27,25 +27,25 @@ data-bs-theme="light"-->
     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
     <!-- Відредагуйте під ваші пункти меню -->
     <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Home</a>
+    <a class="nav-link active" aria-current="page" href="#">Головна</a>
     </li>
     <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
+    <a class="nav-link" href="#">Меню</a>
     </li>
     <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
     aria-expanded="false">
-    Dropdown
+    Навігація
     </a>
     <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Action</a></li>
-    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Меню</a></li>
+    <li><a class="dropdown-item" href="#">Адреса магазинів</a></li>
     <li><hr class="dropdown-divider"></li>
-    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><a class="dropdown-item" href="#">Задати питання</a></li>
     </ul>
     </li>
     <li class="nav-item">
-    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+    <a class="nav-link disabled" aria-disabled="true">Нема</a>
     </li>
     </ul>
     <form class="d-flex" role="search">
@@ -63,12 +63,126 @@ data-bs-theme="light"-->
 <header>
 <!-- Шапка сайту: назва, логотип, навігація -->
 </header>
-<main class="container">
-<h1>Привіт світ!</h1>
-<!-- Головний контент сторінки -->
+<main>
+  <section class="banner">
+    <h1 class="fade-in-text ">Пицерия pizza pub</h1>
+    <h2> Сеть заведений</h2>
+
+  </section>
+  <section class="karusel-sec">
+  <div id="carouselExampleFade" class="carousel slide carousel-fade karusel-own" >
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/0011-113-na-dva-pershi-zamovlennya-web-uk.avif" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/0001-pica-tizhnya-cezar-web-uk.avif" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/0011-113-na-dva-pershi-zamovlennya-web-uk.avif" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+<section class="catalog">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="img/0003-sitna-para.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ситна пара</h5>
+          <p class="card-text">Фермерська + Мисливська.</p>
+          <h6>Размер: 950 г 2х30 см</h6>
+          <p class="cashback"> Кешбек від 5%</p>
+          <h3 class="hada">349 грн</h3>
+          <a href="" class="buy">Купить</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="img/0002-smachna-para.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Смачна пара</h5>
+          <p class="card-text">Пепероні + 4 сири.</p>
+          <h6>Размер: 830г 2х30 см</h6>
+          <p class="cashback"> Кешбек від 5%</p>
+          <h3 class="hada">379 грн</h3>
+          <a href="" class="buy">Купить</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="img/0002-super-mario.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Супер Маріо</h5>
+          <p class="card-text">Пепероні + Маргарита.</p>
+          <h6>Размер: 870г 2х30 см</h6>
+          <p class="cashback"> Кешбек від 5%</p>
+          <h3 class="hada">379 грн</h3>
+          <a href="" class="buy">Купить</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="img/0002-nom-nom.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Комбо Nom Nom</h5>
+          <p class="card-text">Chilly meat + Картопляні діпи з пармезаном.</p>
+          <h6>Размер: 730г</h6>
+          <p class="cashback"> Кешбек від 5%</p>
+          <h3 class="hada">329 грн</h3>
+          <a href="" class="buy">Купить</a>
+        </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/0002-kombo-avatar.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Аватар</h5>
+            <p class="card-text">Пепероні + 4 сири + Мисливська.</p>
+            <h6>Размер: 1290г 3х30 см</h6>
+            <p class="cashback"> Кешбек від 5%</p>
+            <h3 class="hada">569 грн</h3>
+            <a href="" class="buy">Купить</a>
+          </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/0002-tretya-ne-zajva.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Третя не зайва</h5>
+              <p class="card-text">BBQ + Пікантна з грибами + З куркою та грибами.</p>
+              <h6>Размер: 1430г 3х30 см</h6>
+              <p class="cashback"> Кешбек від 5%</p>
+              <h3 class="hada">569 грн</h3>
+              <a href="" class="buy">Купить</a>
+            </div>
+            </div>
+          </div>
+    </div>
+  </div>
+  
+</section>
 </main>
 <footer>
-<!-- Підвал сайту: про сайт, автор, контакти тощо -->
+  <a href class="hhh"> Pizza Pub</a> 
+<a href class="qwerty">Про компанию </a>  
+<a href class="qwertyq">Акции </a>  
+<img src="img/instagram.svg">
+
 </footer>
 <!-- Підключення JS-файлу Bootstrap-->
 <script

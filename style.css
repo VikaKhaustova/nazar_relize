@@ -1,1 +1,85 @@
+head{ 
+  background-color: black;
+  
+}
+.imdf { 
+    border-radius: 50px;
+}
+.container-fluid { 
+    background-color: black;
+}
+.dropdown-menu { 
+    color: white;
+}
+.nav-item { 
+    color: white;
+}
+body { 
+    font-family:Impact, fantasy	;
+}
+.banner {
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(45deg, rgb(252, 169, 90),rgb(162, 85, 124),rgb(71, 0, 157));
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
 
+
+.banner h1 {
+    font-size: 90px;
+    text-align: center;
+}
+.fade-in-text { 
+    font-family:Impact, fantasy	;
+    
+}
+.karusel-sec { 
+display: flex;
+justify-content: center;
+    
+}
+.karusel-own { 
+    width: 800px;
+}
+.cashback { 
+    display: flex;
+  justify-content: end;
+  color: red;
+    
+}
+.buy { 
+    display: flex;
+    justify-content: end;
+    font-size: 30px;
+    color: orange;
+}
+.hada { 
+bottom: 60px;
+}
+.hhh { 
+    font-family: Andale Mono, monospace;
+    font-size: 30px;
+    color: black;
+    justify-content: center;
+    display: flex;
+}
+.qwerty {
+    font-family: Andale Mono, monospace;
+    font-size: 20px;
+    color: grey;
+    display: flex;
+    justify-content: center;
+}
+.qwertyq{ 
+    font-family: Andale Mono, monospace;
+    font-size: 20px;
+    color: grey;
+    display: flex;
+    justify-content: center;
+}

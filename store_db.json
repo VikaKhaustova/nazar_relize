@@ -1,0 +1,45 @@
+[
+    {
+        "title": "Ситна пара",
+        "price":  349,
+        "image": "img/0003-sitna-para.avif",
+        "description": "Фермерська + Мисливська",
+        "scale": "950 г 2х30 см"
+    },
+    {
+        "title": "Смачна пара",
+        "price":  379,
+        "image": "img/0002-smachna-para.avif",
+        "description": "Пепероні + 4 сири",
+        "scale": "830г 2х30 см" 
+    },
+    {
+        "title": "Супер Маріо",
+        "price":  379,
+        "image": "img/0002-super-mario.avif",
+        "description": "Пепероні + Маргарита",
+        "scale": "870г 2х30 см" 
+    },
+    {
+        "title": "Комбо Nom Nom",
+        "price":  329,
+        "image": "img/0002-nom-nom.avif",
+        "description": "Chilly meat + Картопляні діпи з пармезаном.",
+        "scale": "730г" 
+    },
+    {
+        "title": "Аватар",
+        "price":  569,
+        "image": "img/0002-kombo-avatar.avif",
+        "description": "Пепероні + 4 сири + Мисливська",
+        "scale": "1290г 3х30 см" 
+    },
+    {
+        "title": "Третя не зайва",
+        "price":  569,
+        "image": "img/0002-tretya-ne-zajva.avif",
+        "description": "BBQ + Пікантна з грибами + З куркою та грибами.",
+        "scale": "1430г 3х30 см" 
+    }
+
+]
