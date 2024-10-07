@@ -105,6 +105,72 @@ bottom: 60px;
     display: flex;
     justify-content: center;
 }
-.two { 
 
+footer{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:  center;
 }
+
+footer a{
+    text-decoration: none;
+}
+
+
+.container-cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 72px;
+   
+  }
+.my-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background-color: #2b0081;
+    border: 2px solid rgb(57, 54, 41);
+    transition: background .2s linear;
+    width: 450px;
+    text-align: center;
+    margin: 5px;
+  }
+  
+  .my-card:hover{
+    background-color: #418EE9;
+  }
+  
+  .my-card  img{
+    width: 350px;
+    height: 300px;
+  }
+  
+  
+  .num1 {
+    font-size: 40px;
+    text-align: center;
+    border-radius: 40px;
+    padding: 5px;
+    background-color: rgb(62, 143, 209) ;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #fff;
+  }
+  
+  
+  .card-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100px;
+  }
+  .all-carts-1 {
+    padding: 30px 0;
+  }
+  
