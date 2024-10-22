@@ -1,5 +1,3 @@
-
-
 // Отримуємо дані про товари з JSON файлу
 async function getProducts() {
     let response = await fetch("store_db.json");
@@ -7,10 +5,12 @@ async function getProducts() {
     return products;
 };
 
+
 // Генеруємо HTML-код для карточки товару
 function getCardHTML(product) {
     // Створюємо JSON-строку з даними про товар і зберігаємо її в data-атрибуті
     let productData = JSON.stringify(product)
+
 
     return `
         <div class="my-card" style="">
@@ -32,6 +32,7 @@ function getCardHTML(product) {
     `;
 }
 
+
 // Відображаємо товари на сторінці
 getProducts().then(function (products) {
     let productsList = document.querySelector('.products-list')
@@ -41,6 +42,7 @@ getProducts().then(function (products) {
         })
     }
 
+
     // Отримуємо всі кнопки "Купити" на сторінці
     let buyButtons = document.querySelectorAll('.products-list .cart-btn');
     // Навішуємо обробник подій на кожну кнопку "Купити"
@@ -49,5 +51,54 @@ getProducts().then(function (products) {
             button.addEventListener('click', addToCart);
         });
     }
+   
 })
+document.getElementById('toggle').addEventListener('change', function() {
+    document.body.classList.toggle('dark-theme', this.checked);
+  });
+// Функція пошуку товарів
+function searchProducts(event) {
+    event.preventDefault(); // Запобігає перезавантаженню сторінки при відправці форми
+
+
+
+
+    let query = document.querySelector('#searchForm input').value.toLowerCase();
+    let productsList = document.querySelector('.products-list');
+    productsList.innerHTML = ''; // Очищуємо список товарів
+
+
+
+
+    // Відображаємо товари на сторінці
+    getProducts().then(function (products) {
+        let productsList = document.querySelector('.products-list')
+        products.forEach(function (product) {
+            if (product.title.toLowerCase().includes(query) || product.description.toLowerCase().includes(query)) {
+                productsList.innerHTML += getCardHTML(product)
+            }
+        })
+
+
+
+
+        // Отримуємо всі кнопки "Купити" на сторінці
+        let buyButtons = document.querySelectorAll('.products-list .cart-btn');
+        // Навішуємо обробник подій на кожну кнопку "Купити"
+        if (buyButtons) {
+            buyButtons.forEach(function (button) {
+                button.addEventListener('click', addToCart);
+            });
+        }
+    })
+}
+
+
+
+
+// Навішуємо обробник подій на форму пошуку
+let searchForm = document.querySelector('#searchForm')
+searchForm.addEventListener('submit', searchProducts);
+
+
 

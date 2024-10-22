@@ -1,26 +1,35 @@
-head{ 
-  background-color: black;
-  
-}
-.imdf { 
+.imdf {
     border-radius: 50px;
 }
-.container-fluid { 
-    background-color: black;
+
+.container-fluid {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 16%, rgba(253, 126, 29, 1) 52%, rgba(252, 69, 69, 1) 98%);
 }
-.dropdown-menu { 
+
+.dropdown-menu {
     color: white;
 }
-.nav-item { 
+
+.nav-item {
     color: white;
 }
-body { 
-    font-family:Impact, fantasy	;
+
+body {
+    font-family: Courier New, monospace;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 16%, rgba(253, 126, 29, 1) 52%, rgba(252, 69, 69, 1) 98%);
 }
+
+nav {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 16%, rgba(253, 126, 29, 1) 52%, rgba(252, 69, 69, 1) 98%);
+
+}
+
 .banner {
     width: 100%;
     height: 50vh;
-    background-image: linear-gradient(45deg, rgb(252, 169, 90),rgb(162, 85, 124),rgb(71, 0, 157));
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -31,44 +40,54 @@ body {
 }
 
 
+
+
 .banner h1 {
     font-size: 90px;
     text-align: center;
 }
-.fade-in-text { 
-    font-family:Impact, fantasy	;
-    
+
+.fade-in-text {
+    font-family: Impact, fantasy;
+
 }
-.karusel-sec { 
-display: flex;
-justify-content: center;
-    
+
+.karusel-sec {
+    display: flex;
+    justify-content: center;
+
 }
-.karusel-own { 
+
+.karusel-own {
     width: 800px;
 }
-.cashback { 
+
+.cashback {
     display: flex;
-  justify-content: end;
-  color: red;
-    
+    justify-content: end;
+    color: red;
+
 }
-.buy { 
+
+.buy {
     display: flex;
     justify-content: end;
     font-size: 30px;
     color: orange;
 }
-.hada { 
-bottom: 60px;
+
+.hada {
+    bottom: 60px;
 }
-.hhh { 
+
+.hhh {
     font-family: Andale Mono, monospace;
     font-size: 30px;
     color: black;
     justify-content: start;
     display: flex;
 }
+
 .qwerty {
     font-family: Andale Mono, monospace;
     font-size: 20px;
@@ -76,14 +95,16 @@ bottom: 60px;
     display: flex;
     justify-content: start;
 }
-.qwertyq{ 
+
+.qwertyq {
     font-family: Andale Mono, monospace;
     font-size: 20px;
     color: grey;
     display: flex;
     justify-content: start;
 }
-.info { 
+
+.info {
     font-family: Andale Mono, monospace;
     font-size: 30px;
     color: black;
@@ -91,14 +112,11 @@ bottom: 60px;
     display: flex;
 }
 
-.oferta { 
-    font-family: Andale Mono, monospace;
-    font-size: 20px;
-    color: grey;
-    display: flex;
-    justify-content: center;
+.cart-btn{
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 10%, rgba(253,126,29,1) 99%, rgba(252,69,69,1) 100%);
 }
-.politik { 
+.oferta {
     font-family: Andale Mono, monospace;
     font-size: 20px;
     color: grey;
@@ -106,16 +124,28 @@ bottom: 60px;
     justify-content: center;
 }
 
-footer{
+.politik {
+    font-family: Andale Mono, monospace;
+    font-size: 20px;
+    color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+
+footer {
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
-    align-items:  center;
+    align-items: center;
 }
 
-footer a{
+
+footer a {
     text-decoration: none;
 }
+
+
 
 
 .container-cards {
@@ -124,8 +154,9 @@ footer a{
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 72px;
-   
-  }
+
+}
+
 .my-card {
     display: flex;
     flex-direction: column;
@@ -134,43 +165,171 @@ footer a{
     padding: 10px;
     border-radius: 20px;
     color: rgb(255, 255, 255);
-    background-color: #2b0081;
+    background-color: #5500a5;
     border: 2px solid rgb(57, 54, 41);
     transition: background .2s linear;
     width: 450px;
     text-align: center;
     margin: 5px;
-  }
-  
-  .my-card:hover{
+}
+
+.my-card:hover {
     background-color: #418EE9;
-  }
-  
-  .my-card  img{
+}
+
+.my-card img {
     width: 350px;
     height: 300px;
-  }
-  
-  
-  .num1 {
+    display: flex;
+}
+
+
+.num1 {
     font-size: 40px;
     text-align: center;
     border-radius: 40px;
     padding: 5px;
-    background-color: rgb(62, 143, 209) ;
+    background-color: rgb(62, 143, 209);
     margin-bottom: 20px;
     margin-right: 10px;
     margin-left: 10px;
     color: #fff;
-  }
-  
-  
-  .card-title{
+}
+
+
+.card-title {
     margin-top: 20px;
     margin-bottom: 20px;
     height: 100px;
-  }
-  .all-carts-1 {
+}
+
+.all-carts-1 {
     padding: 30px 0;
-  }
-  
+}
+
+.cart-btn:hover {
+    background-color: orange;
+    border-radius: 10px;
+}
+
+/* From Uiverse.io by rishichawda */
+/* The switch - the box around the slider */
+#theme-toggle-button {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 7em;
+    cursor: pointer;
+}
+
+/* Hide default HTML checkbox */
+#toggle {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+#container,
+#patches,
+#stars,
+#button,
+#sun,
+#moon,
+#cloud {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 0.25s;
+}
+
+/* night sky background */
+#toggle:checked+svg #container {
+    fill: #1f2e41;
+}
+
+/* move button to right when checked */
+#toggle:checked+svg #button {
+    transform: translate(28px, 2.333px);
+}
+
+/* show/hide sun and moon based on checkbox state */
+#sun {
+    opacity: 1;
+}
+
+#toggle:checked+svg #sun {
+    opacity: 0;
+}
+
+#moon {
+    opacity: 0;
+}
+
+#toggle:checked+svg #moon {
+    opacity: 1;
+}
+
+/* show or hide background items on checkbox state */
+#cloud {
+    opacity: 1;
+}
+
+#toggle:checked+svg #cloud {
+    opacity: 0;
+}
+
+#stars {
+    opacity: 0;
+}
+
+#toggle:checked+svg #stars {
+    opacity: 1;
+}
+
+body.dark-theme {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(31, 46, 65, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+
+    color: white;
+}
+
+body.dark-theme .my-card {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(15, 77, 89, 1) 100%, rgba(255, 0, 0, 0) 100%);
+    color: rgb(0, 255, 255);
+}
+
+body.dark-theme .num1 {
+    background: rgb(5, 1, 73);
+    color: rgb(255, 0, 119);
+}
+
+body.dark-theme .banner {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(31, 46, 65, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+body.dark-theme .container-fluid {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(31, 46, 65, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: rgb(255, 255, 255);
+}
+
+body.dark-theme nav {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(31, 46, 65, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+body.dark-theme .navbar-expand-lg {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(31, 46, 65, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: rgb(255, 255, 255);
+}
+
+body.dark-theme .cart-btn {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(24, 30, 191, 1) 100%, rgba(255, 0, 0, 0) 100%);
+}
